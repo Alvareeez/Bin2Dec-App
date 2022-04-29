@@ -150,6 +150,10 @@ footer {
     height: 10vh;
 }
 
+#calculando {
+    font-size: 20px;
+}
+
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 

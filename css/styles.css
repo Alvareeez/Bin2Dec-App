@@ -123,6 +123,7 @@ input {
     border-color: white;
     color: white;
     height: 7vh;
+    text-align: center;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -144,6 +145,11 @@ input[type=number] {
     color: red;
 }
 
+#resultadohexa {
+    text-align: center;
+    color: red;
+}
+
 footer {
     color: white;
     text-align: center;
@@ -152,6 +158,15 @@ footer {
 
 #calculando {
     font-size: 20px;
+}
+
+#calculandohexa {
+    font-size: 20px;
+    color: white;
+}
+
+button {
+    width: 100%;
 }
 
 

@@ -7,22 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec-App</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/hexadecimal.js"></script>
     <script src="./js/main.js"></script>
 </head>
 
 <body>
     <div class="flex">
-        <div>
+        <div id="binarycalcul">
             <h1>Bin2Dec App</h1>
             <p>Enter a binary number, get a decimal conversation</p>
             <p id="infonum" style="color: red; font-size: 10px;"></p>
             <p id="infonum2" style="color: green;font-size: 10px;"></p>
             <br>
-            <input type="number" id="numero" value="" onkeyup="parrafos()">
+            <input type="number" id="numero" value="" onkeyup="parrafosbinary()">
             <p id="calculando"></p>
+            <button id="buttonhexa" onclick="hexadecimal()">Change to hexadecimal</button>
+        </div>
+        <div id="hexacalcul">
+            <h1>Hexadecimal App</h1>
+            <p>Enter a hexadecimal number, get a hexadecimal conversation</p>
+            <p id="infonumhexa" style="color: red; font-size: 10px;"></p>
+            <p id="infonumhexa2" style="color: green;font-size: 10px;"></p>
+            <br>
+            <input type="text" id="numerohexa" value="" onkeyup="parrafoshexa()">
+            <p id="calculandohexa"></p>
+            <button onclick="binary()">Change to binary</button>
         </div>
     </div>
-    <footer>Made by @alvareeez20</footer>
+    <footer>Made by @alvareezz20</footer>
 </body>
 
 </html>
